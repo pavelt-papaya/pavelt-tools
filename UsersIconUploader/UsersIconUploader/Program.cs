@@ -17,7 +17,7 @@ static void PrintUsage()
         Options:
           --folder, -f           Directory containing images to upload
           --output, -o           Output folder; writes uploaded_icons_<timestamp>.json there
-          --media-api-base, -u   Shine Media API base URL (default: http://localhost:5210; or SHINE_MEDIA_API_BASE)
+          --media-api-base, -u   Shine Media base URL (default: http://localhost:5210; or SHINE_MEDIA_API_BASE)
           --category, -c         Media category for CreateMedia (default: user-profile-image; or SHINE_MEDIA_CATEGORY)
           --media-type           Optional: Image | Video | Audio (default: Image)
 
